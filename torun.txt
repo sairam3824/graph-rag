@@ -1,0 +1,7 @@
+1. Create a .env file in the project root and add your OpenAI API key:
+
+   OPENAI_API_KEY=sk-...
+
+2. Run the application:
+
+   streamlit run src/demo.py
