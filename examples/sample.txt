@@ -1,0 +1,33 @@
+OpenAI and the Rise of Large Language Models
+
+OpenAI was founded in 2015 by Sam Altman, Elon Musk, Greg Brockman, Ilya Sutskever, and others.
+The company is headquartered in San Francisco and focuses on artificial intelligence research and deployment.
+
+GPT-4 is a large language model developed by OpenAI. It was trained on massive text datasets and
+demonstrates strong reasoning, coding, and language abilities. GPT-4 is used in ChatGPT, which
+was launched in November 2022 and reached 100 million users in two months.
+
+Anthropic is another AI safety company, founded by Dario Amodei and Daniela Amodei, who previously
+worked at OpenAI. Anthropic developed Claude, a large language model designed with a focus on
+safety and helpfulness. Claude uses Constitutional AI, a technique developed at Anthropic.
+
+Google DeepMind was formed by the merger of Google Brain and DeepMind. DeepMind was originally
+founded in London and acquired by Google in 2014. The team behind DeepMind created AlphaGo,
+which defeated world champion Go player Lee Sedol in 2016. Google DeepMind also developed
+Gemini, a multimodal large language model that competes with GPT-4 and Claude.
+
+Transformer architecture, introduced by Vaswani et al. in the 2017 paper "Attention Is All You Need",
+is the foundation of all modern large language models including GPT-4, Claude, and Gemini.
+The attention mechanism allows models to weigh the importance of different tokens in a sequence.
+
+Retrieval Augmented Generation (RAG) is a technique that combines large language models with
+external knowledge retrieval. RAG was introduced by researchers at Facebook AI (now Meta AI).
+It allows language models to access up-to-date information without retraining.
+
+LangChain is an open-source framework for building LLM applications. It was created by Harrison Chase
+and provides tools for chaining LLM calls, integrating with vector databases, and building agents.
+ChromaDB is a popular open-source vector database used with LangChain for semantic search.
+
+Knowledge graphs represent information as entities and relationships. Neo4j is a graph database
+company that provides tools for building and querying knowledge graphs. Microsoft uses knowledge
+graphs in its Bing search engine and Azure AI services.

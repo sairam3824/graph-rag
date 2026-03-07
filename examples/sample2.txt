@@ -1,0 +1,27 @@
+Vector Databases and the AI Infrastructure Stack
+
+Pinecone is a managed vector database service founded in 2019 by Edo Liberty.
+It is used by companies to store and search high-dimensional embeddings for semantic search,
+recommendation systems, and RAG applications. Pinecone competes with Weaviate, Qdrant, and ChromaDB.
+
+Weaviate is an open-source vector database developed by SeMI Technologies. It supports multimodal
+data including text, images, and audio. Weaviate integrates natively with OpenAI, Cohere, and Hugging Face
+for embedding generation.
+
+Hugging Face is a machine learning platform and community founded by Clement Delangue, Julien Chaumond,
+and Thomas Wolf. Hugging Face hosts thousands of pre-trained models including BERT, RoBERTa, and
+Llama. The company is often called the "GitHub of machine learning."
+
+Meta AI developed Llama, an open-source large language model series. Llama 2 and Llama 3 were
+released for public use and became the foundation for many fine-tuned models in the open-source community.
+Llama models are used by researchers and companies that want to run LLMs on their own infrastructure.
+
+NVIDIA produces GPUs that are essential for training and running large language models.
+The H100 GPU is the most powerful chip for AI workloads. NVIDIA's CUDA platform is the dominant
+computing framework for deep learning. OpenAI, Google, Anthropic, and Meta all use NVIDIA GPUs
+at scale for training their models.
+
+Microsoft made a major investment in OpenAI and integrated GPT-4 into its products including
+Azure OpenAI Service, GitHub Copilot, and Microsoft 365 Copilot. GitHub Copilot is an AI coding
+assistant that helps developers write code using natural language prompts. It was trained on
+public code repositories from GitHub.
