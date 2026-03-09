@@ -1,4 +1,3 @@
-import pytest
 from langchain_core.documents import Document
 
 from src.retrieval.reranker import rerank_results
