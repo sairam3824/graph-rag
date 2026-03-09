@@ -20,8 +20,9 @@ def rerank_results(
         if key in seen:
             continue
         seen.add(key)
-        # Convert L2 distance to a [0,1] similarity score
-        sim = max(0.0, 1.0 - distance)
+        # Convert distance to a [0,1] similarity score using exponential decay
+        # This prevents scores from being truncated to 0 for L2 distances > 1.0
+        sim = 1.0 / (1.0 + distance)
         ranked.append((doc, sim, "vector"))
 
     entity_set = {e.lower() for e in graph_entities}
