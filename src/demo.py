@@ -5,20 +5,14 @@ Run: streamlit run src/demo.py
 
 import os
 import shutil
-import sys
 import tempfile
 from pathlib import Path
-
-# Allow imports from src/
-sys.path.insert(0, str(Path(__file__).parent))
 
 import networkx as nx
 import streamlit as st
 import streamlit.components.v1 as components
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-
-load_dotenv()
 
 from ingestion.loader import load_documents
 from ingestion.chunker import chunk_documents
@@ -31,6 +25,8 @@ from retrieval.hybrid import hybrid_retrieve
 from retrieval.graph_search import get_shortest_path
 from generation.generator import generate_answer
 from viz.graph_visualizer import create_graph_html, get_graph_stats
+
+load_dotenv()
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 DATA_DIR = Path(__file__).parent.parent / "data"
