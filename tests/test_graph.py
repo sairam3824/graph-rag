@@ -1,9 +1,7 @@
-import json
 import os
 import tempfile
 
 import networkx as nx
-import pytest
 
 from src.graph.builder import add_extraction_to_graph
 from src.graph.resolver import resolve_entities
